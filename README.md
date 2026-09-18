@@ -141,16 +141,21 @@ build a dev client: `npx expo run:android`.
 - Alert history screen reading from the `alerts` collection
 - Let contacts open a live web map instead of a static pin
 ## PROJECT OUTCOMES
+
 ## SIGN UP PAGE
 <img width="720" height="1600" alt="image" src="https://github.com/user-attachments/assets/347ebf1e-074f-4ffe-8b08-edb753001b68" />
+
 ## SIGN IN PAGE
 <img width="1080" height="2400" alt="image" src="https://github.com/user-attachments/assets/6209e70c-e71c-42a3-9d3e-370932ff40b0" />
+
 ## DASHBOARD
 <img width="720" height="1600" alt="image" src="https://github.com/user-attachments/assets/f1ab13a8-759b-40fe-aa24-b78ed9a899f1" />
 <img width="720" height="1600" alt="image" src="https://github.com/user-attachments/assets/356d2d94-362c-4050-9efc-6beff79a083d" />
 <img width="720" height="1600" alt="image" src="https://github.com/user-attachments/assets/2e13b860-3e45-4c4e-a972-1dc73769d771" />
+
 ## ADD CONTACTS
 <img width="720" height="1600" alt="WhatsApp Image 2026-09-18 at 3 49 03 PM" src="https://github.com/user-attachments/assets/8519f421-0fc8-46fa-ae21-1c495fa5ac9b" />
+
 ## NOTIFICATION
 <img width="714" height="1584" alt="WhatsApp Image 2026-09-18 at 4 03 08 PM" src="https://github.com/user-attachments/assets/84fcf977-1224-4d2a-beb4-cb727889a591" />
 
