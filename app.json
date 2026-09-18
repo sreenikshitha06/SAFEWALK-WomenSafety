@@ -1,24 +1,53 @@
 {
   "expo": {
     "name": "WomenSafety",
-    "slug": "WomenSafety",
+    "slug": "womensafety",
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/icon.png",
-    "userInterfaceStyle": "light",
-    "ios": {
-      "supportsTablet": true
+    "userInterfaceStyle": "dark",
+    "splash": {
+      "resizeMode": "contain",
+      "backgroundColor": "#101418"
     },
-    "android": {
-      "adaptiveIcon": {
-        "backgroundColor": "#E6F4FE",
-        "foregroundImage": "./assets/android-icon-foreground.png",
-        "backgroundImage": "./assets/android-icon-background.png",
-        "monochromeImage": "./assets/android-icon-monochrome.png"
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.nikshitha.womensafety",
+      "config": {
+        "googleMapsApiKey": "AIzaSyCDmSHDF8j45ya5uzku-SUyOLVrGF65OZ4"
+      },
+      "infoPlist": {
+        "NSLocationWhenInUseUsageDescription": "WomenSafety shares your location with your trusted contacts when you press SOS."
       }
     },
-    "web": {
-      "favicon": "./assets/favicon.png"
+    "android": {
+      "package": "com.nikshitha.womensafety",
+      "adaptiveIcon": {
+        "backgroundColor": "#101418"
+      },
+      "permissions": [
+        "ACCESS_FINE_LOCATION",
+        "ACCESS_COARSE_LOCATION",
+        "android.permission.ACCESS_COARSE_LOCATION",
+        "android.permission.ACCESS_FINE_LOCATION"
+      ],
+      "config": {
+        "googleMaps": {
+          "apiKey": "AIzaSyCDmSHDF8j45ya5uzku-SUyOLVrGF65OZ4"
+        }
+      }
+    },
+    "plugins": [
+      [
+        "expo-location",
+        {
+          "locationAlwaysAndWhenInUsePermission": "WomenSafety shares your location with your trusted contacts when you press SOS."
+        }
+      ]
+    ],
+    "extra": {
+      "eas": {
+        "projectId": "42957853-a89a-47b5-befc-3b76cac57365"
+      }
     }
   }
 }
